@@ -1,0 +1,183 @@
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+	<style type="text/css">
+		.drophover:hover > .dropdown-menu{ 
+			display: block; 
+			margin: 0; 
+			}
+		body{
+			background-image: url(elitefon.ru_8253.jpg);
+			}
+	</style>
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-danger" >
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	  <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto" >
+		  <li class="nav-item active" >
+			<a class="nav-link text-white" href="index.html"  data-placement="bottom" title="На главную">Home<span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" href="table.html" data-placement="bottom" title="Список Black metal коллективов">Группы</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" href="#" data-placement="bottom" title="Здесь что-то будет">Что-то еще</a>
+		  </li>
+			<li class="nav-item dropdown drophover"> 
+				<a class="nav-link dropdown-toggle text-white" href="#" role="button" aria-haspopup="true" aria-expanded="false">Меню</a> 
+					<div class="dropdown-menu"> 
+						<a class="dropdown-item" data-toggle="modal" data-target="#mycat" data-placement="bottom" title="Посмотреть на котю">Картинка</a> 
+						<a class="dropdown-item" href="MathML.html" data-placement="bottom" title="Осторожно, математика">Цифры</a> 
+							<div class="dropdown-divider"></div> 
+								<div class="btn-group dropright drophover"> 
+								<a class="dropdown-toggle dropdown-item" style="cursor: pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Клипы </a> 
+									<div class="dropdown-menu"> 
+										<a class="dropdown-item" href="https://www.youtube.com/watch?v=sOOebk_dKFo">IMMORTAL - "ALL SHALL FALL"</a> 
+										<a class="dropdown-item" href="https://www.youtube.com/watch?v=Qmk_PXtem4E">DARK FUNERAL - Unchain My Soul</a> 
+										<a class="dropdown-item" href="https://www.youtube.com/watch?v=G6P8zgeIjTA">VARG - Darkness</a> 
+									</div> 
+								</div> 
+					</div> 
+			</li>
+			<li class="nav-item">
+			<button class="btn btn-info" data-toggle="modal" data-target="#myModal">Важная информация</button>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb" style="background-color: #808080;">
+    <li class="breadcrumb-item active" aria-current="page" style="color: white;">Home</li>
+  </ol>
+</nav>
+
+<!--<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>-->
+
+	<div class="col-md-12 mx-auto row">
+		<div class="card col-md-3" style="background-color: #000000; width: 18rem;">
+			<img class="card-img-top" src="20597284_1230759237036065_1122288401382817575_n.jpg" alt="Card image cap">
+			<div class="card-body" style="background-color: #000000">
+				<h5 class="card-title" style="color: #ff0000">Black metal</h5>
+				<p class="card-text" style="color: #ffffff">Блэ́к-ме́тал (англ. black metal; «чёрный метал»; норв. svartmetall), или просто — блэк, — музыкальный стиль, одно из экстремальных направлений метала.</p>
+				<a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D1%8D%D0%BA-%D0%BC%D0%B5%D1%82%D0%B0%D0%BB" class="btn btn-primary">Ссылка на википедию</a>
+			</div>
+		</div>
+		<div id="carousel" class="carousel slide col-md-6" data-ride="carousel">
+			<ol class="carousel-indicators">
+               <li data-target="#carousel" data-slide-to="1" class="active"></li>
+               <li data-target="#carousel" data-slide-to="2"></li>
+			   <li data-target="#carousel" data-slide-to="3"></li>
+			</ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="getImage.webp" alt="first" width="100" height="500">
+                </div>
+				<div class="carousel-item">
+                  <img class="d-block w-100" src="Без названия (1).jpg" alt="second" width="100" height="500">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="22de516d.jpg" alt="third" width="100" height="500">
+                </div>
+             </div>
+         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+		</div>
+		<div class="conteiner bg-secondary">
+			<h6 class="text-white">Спонсоры моей работы:<h6>
+			<a href="https://www.google.ru/" class="badge badge-dark">Google, спасибо, что ты есть!</a>
+			<a href="http://bootstrap-4.ru/" class="badge badge-dark">Bootstrap</a>
+			<a href="https://www.youtube.com/user/PlurrimiTube" class="badge badge-dark">Гоша Дударь</a><br><br>
+			<img src="9xi7de.jpg" width="350" style="padding-top= 20%">
+		</div>
+	</div>
+
+
+	
+
+
+<div id="myModal" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Заголовок окна</h4>
+		<button class="close" data-dismiss="modal">X</button>    
+      </div>
+      <div class="modal-body">администрация данного сайта не приследует цели разжигания религиозной ненависти. Контент сайта носит лишь развлекательно-образовательный характер. В целях противодействия возникновения психологических расстройств просим лиц младше 18 лет воздержаться от просмотра данного сайта. <br>P.S.Поставьте 10 баллов плиз. Я это пол ночи делал)))</div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mycat" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Котя</h4>
+		<button class="close" data-dismiss="modal">X</button>    
+      </div>
+      <div class="modal-body">
+		<center>
+		<svg width="500" height="500">
+			<circle cx="152" cy="250" r="100" fill="rgb(245,148,22)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<polyline points="55,220 40,150 90, 170" fill="rgb(245,148,22)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<polyline points="248,220 255,150 210, 170" fill="rgb(245,148,22)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<circle cx="110" cy="230" r="30" fill="rgb(234,234,234)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<circle cx="110" cy="230" r="15" fill="rgb(255,0,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<circle cx="192" cy="230" r="30" fill="rgb(234,234,234)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<circle cx="192" cy="230" r="15" fill="rgb(74,217,217)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<circle cx="152" cy="270" r="15" fill="rgb(0,0,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="250" y2="250" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="250" y2="270" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="250" y2="290" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="54" y2="250" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="54" y2="270" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<line x1="152" y1="270" x2="54" y2="290" stroke-width="1" stroke="rgb(0,0,0)"/>
+			<ellipse cx="152" cy="310" rx="30" ry="15" fill="rgb(253,83,142)" stroke-width="1" stroke="rgb(0,0,0)"/>
+		</center>
+	  </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
